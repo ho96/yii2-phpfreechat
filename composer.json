@@ -1,0 +1,24 @@
+{
+    "name": "ho96/yii2-phpfreechat",
+    "description": "Extension that is a wrapper of the PHP free chat.",
+    "keywords": ["chat", "phpfreechat", "widget"],
+    "homepage": "https://github.com/ho96/yii2-phpfreechat",
+    "type": "yii2-extension",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Marc Oliveras",
+            "email": "admin@oligalma.com",
+            "homepage": "http://www.oligalma.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ho96\\phpfreechat\\": ""
+        }
+    }
+}
